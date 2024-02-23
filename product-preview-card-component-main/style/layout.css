@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    background: hsl(30, 38%, 92%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.general {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.first {
+    background-color: red;
+    width: 300px;
+    height: 400px;
+    border-bottom-left-radius:50px ;
+}
+.second{
+    background-color:hsl(0, 0%, 100%)    ;
+    width: 300px;
+    height: 400px;
+    padding-left: 15px;
+    /* padding-right: 15px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  
+   
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.btn {
+    background:  hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn:hover {
+    background: hsl(212, 21%, 14%);
+}
+h2 {
+    font-weight: 700;
+
+}
+.money {
+    color:hsl(158, 36%, 37%);
+}
+.images-card {
+    width: 300px;
+    height: 400px;
+}
